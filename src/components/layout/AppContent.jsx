@@ -10,5 +10,5 @@ const contentStyle = {
 };
 
 export default function AppContent() {
-  <Layout.Content style={contentStyle}>Content</Layout.Content>
+  return(<Layout.Content style={contentStyle}>Content</Layout.Content>)
 }
