@@ -36,7 +36,11 @@ export default function AppSider() {
                 value: asset.totalProfit,
                 withTag: true,
               },
-              { title: "Asset Amount", value: asset.amount, isPlain: true },
+              {
+                title: "Asset Amount",
+                value: asset.amount,
+                isPlain: true,
+              },
               // { title: "Difference", value: asset.growPercent },
             ]}
             renderItem={(item) => (
